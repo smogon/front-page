@@ -1,0 +1,1 @@
+# Smogon Front Page
