@@ -2,6 +2,6 @@
 
 Install: `npm i`
 
-Build: `npm run build`
+Build: `npm build`
 
-Run: `npm run start`
+Run (with hot-reloading): `npm start`
