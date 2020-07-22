@@ -1,7 +1,7 @@
 {
   "scripts": {
     "build": "webpack",
-    "start": "webpack-dev-server --open --no-inline"
+    "start": "webpack-dev-server --open"
   },
   "devDependencies": {
     "ts-loader": "^8.0.1",

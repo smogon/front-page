@@ -8,7 +8,8 @@ module.exports = {
     filename: 'app.js'
   },
   resolve: {
-    extensions: ['.ts', '.tsx'],
+    modules: ['src', 'node_modules'],
+    extensions: ['.ts', '.tsx', '.js'],
     alias: {
       "react": "preact/compat",
       "react-dom/test-utils": "preact/test-utils",
