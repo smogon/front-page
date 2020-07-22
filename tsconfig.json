@@ -4,10 +4,11 @@
     "module": "commonjs",
     "target": "es6",
     "jsx": "react",
-    "jsxFactory": "h"
+    "jsxFactory": "h",
+    "skipLibCheck": true
   },
   "include": [
     "./src/**/*.tsx",
     "./src/**/*.ts"
-  ]
+  ],
 }

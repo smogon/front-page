@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pokemon on the internet: Let's make it happen</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script>
+      // loading the bundle and making sure we're not using cache
+      var rnd = (new Date()).getTime();
+      var b = document.createElement("script");
+      b.src = "/build/app.js?v=" + rnd;
+      b.type = "text/javascript";
+      document.body.appendChild(b);
+    </script>
+  </body>
+</html>
