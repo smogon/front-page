@@ -1,4 +1,5 @@
 var path = require('path');
+var HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   devtool: 'source-map',
@@ -7,6 +8,11 @@ module.exports = {
     path: path.resolve(__dirname, 'build'),
     filename: 'app.js'
   },
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: './src/index.html'
+    })
+  ],
   resolve: {
     modules: ['src', 'node_modules'],
     extensions: ['.ts', '.tsx', '.js'],
@@ -26,7 +32,7 @@ module.exports = {
     ]
   },
   devServer: {
-    contentBase: __dirname,
+    contentBase: path.resolve(__dirname, 'build'),
     compress: true,
     port: 9000
   }
