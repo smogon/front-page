@@ -41,7 +41,10 @@ module.exports = {
               modules: true
             },
           },
-          'postcss-loader',
+          {
+            loader: 'postcss-loader',
+            options: { plugins: () => [postcssPresetEnv({ stage: 0 })] },
+          },
         ],
       },
     ],
