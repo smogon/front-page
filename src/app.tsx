@@ -1,8 +1,13 @@
-import { h } from "preact";
-var style = require("./css/test.module.css");
+import { h, Fragment } from "preact";
+import Footer from "./components/footer"
+
+var style = require("./style/main.module.css");
 
 export function App() {
   return (
-    <h1 class={style.h1}>Hooray, it works</h1>
+    <Fragment>
+      <h1>Hooray, it works</h1>
+      <Footer />
+    </Fragment>
   )
 }
