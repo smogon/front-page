@@ -1,0 +1,28 @@
+section {
+    height: 410px;
+    background-color: #463a5c;
+    padding: 20px 0;
+    display: inline-block;
+    max-width: 2000px;
+    width: 100%;
+    display: flex;
+}
+
+.sectionCont {
+    margin: auto;
+    width: 80%;
+}
+
+p {
+    font-size: 2.4em;
+    font-weight: bold;
+    color: #ffd014;
+}
+
+section div i {
+    color: #fff;
+    float: left;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 25px;
+}

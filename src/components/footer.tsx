@@ -29,7 +29,7 @@ export default () => {
                         <i class="fab fa-discord fa-4x"></i>
                     </div>
 
-                    <div className={style.copy}>All guides and strategy information are &copy; 2004-2020 Smogon.com and its contributors. Pokémon is &copy; 1995-2019 Nintendo. Privacy Policy</div>
+                    <div className={style.copy}>All guides and strategy information are &copy; 2004-2020 Smogon.com and its contributors. Pokémon is &copy; 1995-2020 Nintendo. Privacy Policy</div>
                 </div>
             </div>
         </footer>
