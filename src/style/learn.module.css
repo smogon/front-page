@@ -1,0 +1,91 @@
+.learn {
+    height: 550px;
+    padding: 50px 100px;
+    background-color: #fff;
+    max-width: 2000px;
+}
+
+.learnCont {
+    width: 100%;
+}
+
+.learnCont h1 {
+    font-size: 4em;
+}
+
+.learnCont h1, .learnCont i {
+    color: #6c5ea6;
+}
+
+.learnCont, .learnCont > i, h1 {
+    margin: 0 auto;
+    padding: 0 30px 30px 0;
+}
+
+.cardGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+    justify-items: center;
+}
+
+.card {
+    height: 410px;
+    width: 260px;
+    background-color: #463a5c;
+    border-radius: 30px;
+    display: grid;
+    color: #fff;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 1px 2px 5px 3px #000;
+}
+
+.vector {
+    height: 125px;
+    width: 125px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.centerVect {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.centerVect > i {
+    margin: 0 auto;
+    color: #b02817;
+}
+
+.title {
+    font-size: 1.8em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.desc {
+    font-size: 1.1em;
+    margin: 20px;
+    height: 120px;
+}
+
+.viewSelection {
+    width: 80%;
+    height: 70px;
+    color: #463a5c;
+    background-color: #ffd014;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 1.3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vector, .viewSelection {
+    margin: 0 auto;
+}

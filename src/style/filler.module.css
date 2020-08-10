@@ -1,4 +1,4 @@
-section {
+.filler {
     height: 410px;
     background-color: #463a5c;
     padding: 20px 0;
@@ -24,5 +24,5 @@ section div i {
     float: left;
     margin-right: 100px;
     margin-left: 100px;
-    margin-top: 25px;
+    margin-top: 30px;
 }

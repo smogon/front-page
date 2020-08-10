@@ -18,7 +18,7 @@ export default () => {
                         <li>About</li>
                         <li>Pok&eacute;dex</li>
                         <li>Forums</li>
-                        <li>Create-A-Pok&eacute;mon</li>
+                        <li>Tournaments</li>
                         <li>Pok&eacute;mon Showdown!</li>
                     </ul>
 
