@@ -17,6 +17,8 @@
     "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
-    "preact": "^10.4.6"
+    "preact": "^10.4.6",
+    "precss": "^4.0.0",
+    "style-loader": "^1.2.1"
   }
 }

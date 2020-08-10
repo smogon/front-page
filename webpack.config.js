@@ -16,6 +16,9 @@ module.exports = {
   resolve: {
     modules: ['src', 'node_modules'],
     extensions: ['.ts', '.tsx', '.js', '.css'],
+    modules: [
+      'node_modules'
+    ],
     alias: {
       "react": "preact/compat",
       "react-dom/test-utils": "preact/test-utils",
@@ -38,13 +41,12 @@ module.exports = {
             loader: 'css-loader',
             options: {
               importLoaders: 1,
-              modules: true
+              modules: {
+                auto: true
+              }
             },
           },
-          {
-            loader: 'postcss-loader',
-            options: { plugins: () => [postcssPresetEnv({ stage: 0 })] },
-          },
+          'postcss-loader'
         ],
       },
     ],

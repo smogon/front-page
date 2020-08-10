@@ -1,5 +1,5 @@
 import { h } from "preact";
-import style from "./css/test.css"
+import style from "./css/test.module.css";
 
 export function App() {
   return (
