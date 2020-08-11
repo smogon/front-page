@@ -8,6 +8,7 @@ export default () => {
                 <i class="fas fa-book-reader fa-5x"></i>
                 <h1>Learn</h1> 
                 <div className={style.cardGrid}>
+                    
                     <div className={style.card}>
                         <div className={style.vector}>
                             <div className={style.centerVect}>

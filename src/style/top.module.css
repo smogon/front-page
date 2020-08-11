@@ -1,0 +1,61 @@
+.top {
+    height: 700px;
+    background-color: #463a5c;
+    padding: 50px 100px;
+    display: flex;
+    max-width: 1800px;
+}
+
+.topCont {
+    margin-top: 70px;
+    color: #fff;
+    width: 650px;
+}
+
+.topCont h1 {
+    color: #ffd014;
+    text-transform: uppercase;
+    font-size: 6em;
+}
+
+.topCont h1 span:first-child {
+    font-size: 1.35em;
+}
+
+.topCont h1 span:last-child {
+    display: block;
+}
+
+hr {
+    background-color: #fff;
+    border: none;
+    height: 2px;
+}
+
+.subtitle {
+    margin-top: 50px;
+    margin-bottom: 25px;
+    font-size: 1.7em;
+}
+
+.topCont .mainLink {
+    height: 55px;
+    width: 190px;
+    line-height: 55px;
+    font-size: 1.2em;
+    font-weight: bold;
+    background-color: #6c5ea6;
+    display: inline-block;
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-right: 10px;
+    box-shadow: 1px 2px 2px 2px #000;
+}
+
+.topCont .mainLink:last-child {
+    background-color: #6b8085;
+}
+
+.topCont .mainLink i {
+    margin: 4%;
+}

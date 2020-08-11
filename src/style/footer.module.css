@@ -1,7 +1,6 @@
 footer {
-    background-color: #98afb5;
+    background-color: #6b8085;
     max-width: 2000px;
-    width: 100%;
     height: 550px;
     display: flex;
 }
@@ -25,7 +24,7 @@ footer {
     grid-area: links;
 }
 
-img {
+.footerGrid img {
     height: 300px;
     width: 300px;
 }
