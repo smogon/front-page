@@ -7,7 +7,7 @@ footer {
 
 .footerGrid {
     margin: auto;
-    max-width: 1600px;
+    max-width: 1700px;
     display: grid;
     grid-template-columns: repeat(3, 1fr) 2fr;
     grid-template-areas: 
@@ -18,10 +18,12 @@ footer {
     justify-content: center;
     grid-area: uni;
     display: inline-grid;
+
 }
 
 .footerGrid > div:last-child {
     grid-area: links;
+    margin-right: 30px;
 }
 
 .footerGrid img {
