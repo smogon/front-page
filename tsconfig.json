@@ -5,10 +5,15 @@
     "target": "es6",
     "jsx": "react",
     "jsxFactory": "h",
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "plugins": [
+      { 
+        "name": "typescript-plugin-css-modules" 
+      }
+    ]
   },
   "include": [
     "./src/**/*.tsx",
     "./src/**/*.ts"
-  ],
+  ]
 }

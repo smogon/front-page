@@ -15,7 +15,10 @@ module.exports = {
   ],
   resolve: {
     modules: ['src', 'node_modules'],
-    extensions: ['.ts', '.tsx', '.js'],
+    extensions: ['.ts', '.tsx', '.js', '.css'],
+    modules: [
+      'node_modules'
+    ],
     alias: {
       "react": "preact/compat",
       "react-dom/test-utils": "preact/test-utils",
@@ -28,8 +31,25 @@ module.exports = {
         test: /\.tsx?$/,
         exclude: /node_modules/,
         loaders: ['ts-loader']
-      }
-    ]
+      },
+      {
+        test: /\.css$/i,
+        exclude: /node_modules/,
+        use: [
+          'style-loader',
+          {
+            loader: 'css-loader',
+            options: {
+              importLoaders: 1,
+              modules: {
+                auto: true
+              }
+            },
+          },
+          'postcss-loader'
+        ],
+      },
+    ],
   },
   devServer: {
     contentBase: path.resolve(__dirname, 'build'),

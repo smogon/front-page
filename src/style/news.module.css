@@ -1,0 +1,25 @@
+.news {
+    height: 800px;
+    background-color: #6c5ea6;
+    padding: 50px 100px;
+    display: flex;
+    max-width: 1800px;
+}
+
+.newsCont {
+    width: 100%;
+}
+
+.newsCont h1 {
+    color: #fff;
+    font-size: 4em;
+}
+
+.newCont, .newsCont i, h1 {
+    margin: 0 auto;
+    padding: 0 30px 30px 0;
+}
+
+.shadow {
+    box-shadow: 0 1px 2px 2px #000;
+}
