@@ -1,5 +1,6 @@
 var path = require('path');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
+var CopyWebpackPlugin = require('copy-webpack-plugin')
 
 module.exports = {
   devtool: 'source-map',
@@ -11,7 +12,12 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       template: './src/index.html'
-    })
+    }),
+    new CopyWebpackPlugin({
+      patterns: [
+        'resources/*'
+      ],
+    }),
   ],
   resolve: {
     modules: ['src', 'node_modules'],

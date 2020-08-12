@@ -1,5 +1,4 @@
 import { h, Component } from "preact";
-import json from "../articles/data.json";
 
 export default class NewsFetcher extends Component<{}, any> {
     constructor(props) {
@@ -18,18 +17,19 @@ export default class NewsFetcher extends Component<{}, any> {
                 mounted: true
             }
         )
-        console.log(json[2])
     }
 
-    NewsFetcher() {
-        var rawData = json.data;
-        var data = json.slice(Math.max(json.length - 4, 0))
+    async NewsFetcher() {
+        const response = await fetch('/resources/articles.json')
+        const json = await response.json()
+
         this.setState(
             {
-                fill: data,
+                fill: json,
                 isLoaded: true
             }
         )
+        console.log('loaded', json)
     }
 
     render() {

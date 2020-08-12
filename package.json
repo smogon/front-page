@@ -4,6 +4,7 @@
     "start": "webpack-dev-server --open"
   },
   "devDependencies": {
+    "copy-webpack-plugin": "^6.0.3",
     "css-loader": "^4.2.0",
     "html-webpack-plugin": "^4.3.0",
     "postcss-load-config": "^2.1.0",
