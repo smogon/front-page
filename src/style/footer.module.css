@@ -24,6 +24,7 @@ footer {
 .footerGrid > div:last-child {
     grid-area: links;
     margin-right: 30px;
+    margin-top: 20px;
 }
 
 .footerGrid img {
@@ -69,7 +70,6 @@ i:last-child {
 li, .social {
     opacity: 0.5;
     text-align: right;
-    
 }
 
 .copy {
