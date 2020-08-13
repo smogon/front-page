@@ -1,24 +1,78 @@
 .news {
-    height: 800px;
     background-color: #6c5ea6;
     padding: 50px 100px;
     display: flex;
-    max-width: 1800px;
 }
 
 .newsCont {
-    width: 100%;
+    width: 60%;
 }
 
 .newsCont h1 {
     color: #fff;
 }
 
-.newCont, .newsCont i, h1 {
+.newCont, .newsCont i {
     margin: 0 auto;
-    padding: 0 30px 30px 0;
+    margin-right: 30px;
 }
 
 .shadow {
     box-shadow: 0 1px 2px 2px #000;
+    border-radius: 5px;
+    max-height: 874px;
+}
+
+.twitter {
+    margin-top: 105px;
+}
+
+.articleCont {
+    display: grid;
+    grid-template-rows: 2fr 2fr;
+    grid-template-columns: 2fr 2fr;
+    grid-gap: 50px;
+    width: 90%;
+    justify-items: center;
+}
+
+.articleCard {
+    width: 365px;
+    height: 365px;
+    background-color: #fff;
+    border-radius: 40px;
+    margin: 0;
+    display: inline-block;
+    padding: 20px;
+    position: relative;
+}
+
+.articleCard > div:last-child {
+    position: absolute;
+    bottom: 20px;
+    width: 90%;
+}
+
+.articleCard span {
+    display: block;
+}
+
+.title {
+    color: #463a5c;
+    font-size: 1.1em;
+}
+
+.auth {
+    color: #6c5ea6;
+}
+
+.title, .auth {
+    font-weight: bold;
+}
+
+.pic {
+    height: 70%;
+    background-color: #6c5ea6;
+    width: 100%;
+    border-radius: 40px;
 }
