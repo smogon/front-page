@@ -62,11 +62,11 @@
     font-size: 1.1em;
 }
 
-.auth {
+.authors {
     color: #6c5ea6;
 }
 
-.title, .auth {
+.title, .authors {
     font-weight: bold;
 }
 
