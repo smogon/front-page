@@ -4,36 +4,22 @@
     "start": "webpack-dev-server --open"
   },
   "devDependencies": {
-<<<<<<< HEAD
     "copy-webpack-plugin": "^6.0.3",
-=======
->>>>>>> master
     "css-loader": "^4.2.0",
     "html-webpack-plugin": "^4.3.0",
     "postcss-load-config": "^2.1.0",
     "postcss-loader": "^3.0.0",
     "postcss-plugin": "^1.0.0",
-<<<<<<< HEAD
     "ts-loader": "^8.0.2",
     "typescript": "^3.9.7",
     "typescript-plugin-css-modules": "^2.4.0",
     "webpack": "^4.44.1",
-=======
-    "ts-loader": "^8.0.1",
-    "typescript": "^3.9.7",
-    "typescript-plugin-css-modules": "^2.4.0",
-    "webpack": "^4.43.0",
->>>>>>> master
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
-<<<<<<< HEAD
     "moment": "^2.27.0",
     "preact": "^10.4.7",
-=======
-    "preact": "^10.4.6",
->>>>>>> master
     "precss": "^4.0.0",
     "style-loader": "^1.2.1"
   }
