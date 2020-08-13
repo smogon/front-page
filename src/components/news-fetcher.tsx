@@ -57,7 +57,7 @@ export default class NewsFetcher extends Component<{}, any> {
 								auth = `${authors[0]} and ${authors[1]}`;
 								break;
 							case 3:
-								auth = (<span style="display:inline;">{authors.slice(0, 2).join(", ")}, and {authors.slice(2)[0]}</span>);
+								auth = (<span style="display:inline;">${authors[0]}, ${authors[1]}, and {authors[2]}</span>);
 								break;
 							default:
 								auth = (<span style="display:inline;">{authors.slice(0, 3).join(", ")}, and <abbr title={authors.slice(3).join(", ")}>{authors.slice(3).length} more</abbr></span>);
@@ -73,16 +73,18 @@ export default class NewsFetcher extends Component<{}, any> {
 
 					return (
 						<div className={[style.articleCard, style.shadow].join(" ")}>
-							<div className={style.pic}></div>
+							<div></div>
 							<div>
-								<span className={style.title}>{post.title}</span>
-								<span className={style.authors}>By {getAuthors()}</span>
-								<span className={style.date}>{moment(post.pubdate).format('MMM Do, YYYY')}</span>
-								<span className={style.tags}>{getTags()}</span>
+								<div className={style.center}>
+									<span className={style.title}>{post.title}</span>
+									<span className={style.authors}>By {getAuthors()}</span>
+									<span className={style.date}>{moment(post.pubdate).format('MMM Do, YYYY')}</span>
+									<span className={style.tags}>{getTags()}</span>
+								</div>
 							</div>
 						</div>
 					);
-				})
+				}).reverse()
 				}
 			</div>
 		)

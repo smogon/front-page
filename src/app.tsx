@@ -6,6 +6,8 @@ import Learn from "./components/learn";
 import Top from "./components/top";
 import Header from "./components/header";
 
+const style = require("./style/main.module.css");
+
 export function App() {
 	return (
 		<Fragment>

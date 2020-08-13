@@ -18,13 +18,9 @@
 }
 
 .shadow {
-    box-shadow: 0 1px 2px 2px #000;
+    /*box-shadow: 0 1px 2px 2px #000;*/
+    border: 2px solid red;
     border-radius: 5px;
-    max-height: 874px;
-}
-
-.twitter {
-    margin-top: 105px;
 }
 
 .articleCont {
@@ -33,28 +29,46 @@
     grid-template-columns: 2fr 2fr;
     grid-gap: 50px;
     width: 90%;
+    height: 80%;
     justify-items: center;
+    margin: 0 auto;
 }
 
 .articleCard {
-    width: 365px;
-    height: 365px;
-    background-color: #fff;
+    width: 100%;
+    height: 100%;
     border-radius: 40px;
-    margin: 0;
-    display: inline-block;
-    padding: 20px;
-    position: relative;
+}
+
+.articleCard > div:first-child {
+    background-image: url("https://i.imgur.com/LiDF2IK.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    height: 65%;
+    background-color: #463a5c;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
 }
 
 .articleCard > div:last-child {
-    position: absolute;
-    bottom: 20px;
-    width: 90%;
+    height: 35%;
+    background-color: #fff;
+    padding-left: 20px;
+    padding-right: 15px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+
+.center {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .articleCard span {
     display: block;
+    padding: 1px;
 }
 
 .title {
@@ -68,11 +82,4 @@
 
 .title, .authors {
     font-weight: bold;
-}
-
-.pic {
-    height: 70%;
-    background-color: #6c5ea6;
-    width: 100%;
-    border-radius: 40px;
 }
