@@ -1,5 +1,12 @@
 import { h, render } from "preact";
-import { App } from './app'
+import { router } from './routing/routes';
 
-// entrypoint to the app
-render(<App />, document.body);
+async function renderRoute() {
+	const result = await router.value.resolve(window.location.pathname)
+	if (result.type === 'page') {
+		const View = result.content.view
+		render(<View />, document.body)
+	}
+}
+
+renderRoute()
