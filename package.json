@@ -21,6 +21,7 @@
     "moment": "^2.27.0",
     "preact": "^10.4.7",
     "precss": "^4.0.0",
-    "style-loader": "^1.2.1"
+    "style-loader": "^1.2.1",
+    "universal-router": "^9.0.1"
   }
 }
