@@ -1,8 +1,6 @@
 .learn {
-    height: 550px;
     padding: 50px 100px;
     background-color: #fff;
-    max-width: 1800px;
 }
 
 .learnCont {
@@ -11,11 +9,11 @@
 
 .learnCont h1, .learnCont i {
     color: #6c5ea6;
+    margin: 0;
 }
 
-.learnCont, .learnCont > i, h1 {
-    margin: 0 auto;
-    padding: 0 30px 30px 0;
+.learnCont i {
+    margin: 3px 20px 20px auto;
 }
 
 .cardGrid {

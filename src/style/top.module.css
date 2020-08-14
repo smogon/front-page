@@ -1,5 +1,4 @@
 .top {
-    height: 700px;
     background-color: #463a5c;
     padding: 50px 100px;
     display: flex;
@@ -9,25 +8,25 @@
 .topCont {
     margin-top: 70px;
     color: #fff;
-    width: 650px;
+    width: 35%;
 }
 
-.topCont h1 {
+.topCont h1 span {
     color: #ffd014;
     font-size: 6em;
+    display: block;
 }
 
 .topCont h1 span:first-child {
-    font-size: 1.35em;
+    font-size: 1.85em;
 }
 
 .topCont h1 span:last-child {
-    display: block;
+    font-size: 1.36em;
 }
 
 hr {
     background-color: #fff;
-    border: none;
     height: 2px;
 }
 

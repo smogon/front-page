@@ -5,8 +5,7 @@ export default () => {
 	return (
 		<section className={style.learn}>
 			<div className={style.learnCont}>
-				<i class="fas fa-book-reader fa-5x"></i>
-				<h1>Learn</h1> 
+				<h1><i class="fas fa-book-reader"></i> Learn</h1> 
 				<div className={style.cardGrid}>
 					
 					<div className={style.card}>

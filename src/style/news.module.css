@@ -6,15 +6,16 @@
 
 .newsCont {
     width: 60%;
+    height: 875px;
 }
 
-.newsCont h1 {
+.newsCont h1, .newsCont i {
     color: #fff;
+    margin: 0;
 }
 
-.newCont, .newsCont i {
-    margin: 0 auto;
-    margin-right: 30px;
+.newsCont i {
+    margin: 3px 20px auto auto;
 }
 
 .shadow {
@@ -30,7 +31,7 @@
     width: 90%;
     height: 80%;
     justify-items: center;
-    margin: 0 auto;
+    margin: 20px auto 0 auto;
 }
 
 .articleCard {
@@ -81,4 +82,8 @@
 
 .title, .authors {
     font-weight: bold;
+}
+
+.date, .tags {
+    font-size: 0.85em;
 }

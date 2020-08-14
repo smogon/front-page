@@ -6,8 +6,7 @@ export default () => {
 	return (
 		<section className={style.news}>
 			<div className={style.newsCont}>
-				<i class="fas fa-newspaper fa-5x"></i>
-				<h1>Latest News</h1> 
+				<h1><i class="fas fa-newspaper"></i> Latest News</h1> 
 				<NewsFetcher />
 			</div>
 			<div className={style.shadow}>

@@ -6,6 +6,8 @@ import Learn from "../components/learn";
 import Top from "../components/top";
 import Header from "../components/header";
 
+import 'normalize.css';
+
 const style = require("../style/main.module.css");
 
 export const Home = () =>
