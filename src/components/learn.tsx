@@ -4,8 +4,8 @@ const style = require("../style/learn.module.css");
 export default () => {
 	return (
 		<section className={style.learn}>
-			<div className={style.learnCont}>
-				<h1><i class="fas fa-book-reader"></i> Learn</h1> 
+			<h1><i class="fas fa-book-reader"></i> Learn</h1>
+			<div className={style.learnCont}> 
 				<div className={style.cardGrid}>
 					
 					<div className={style.card}>

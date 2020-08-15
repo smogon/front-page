@@ -1,30 +1,29 @@
 footer {
     background-color: #6b8085;
-    max-width: 2000px;
     height: 550px;
     display: flex;
 }
 
 .footerGrid {
-    margin: auto;
+    margin: 0 auto;
     max-width: 1700px;
     display: grid;
     grid-template-columns: repeat(3, 1fr) 2fr;
     grid-template-areas: 
         "uni . . links";
+    align-items: center;
+    justify-content: center;
 }
 
 .footerGrid > div:first-child {
     justify-content: center;
     grid-area: uni;
     display: inline-grid;
-
 }
 
 .footerGrid > div:last-child {
     grid-area: links;
     margin-right: 30px;
-    margin-top: 20px;
 }
 
 .footerGrid img {

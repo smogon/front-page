@@ -1,26 +1,29 @@
 .learn {
-    padding: 50px 100px;
+    padding: 25px 100px 50px;
     background-color: #fff;
 }
 
-.learnCont {
-    width: 100%;
-}
-
-.learnCont h1, .learnCont i {
+.learn h1, .learn i {
     color: #6c5ea6;
     margin: 0;
 }
 
-.learnCont i {
-    margin: 3px 20px 20px auto;
+.learn i {
+    margin: 3px auto 20px auto;
+}
+
+.learnCont {
+    max-width: 2000px;
+    margin: 0 auto;
 }
 
 .cardGrid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    width: 100%;
+    width: 90%;
     justify-items: center;
+    margin: 0 auto;
+    grid-gap: 20px;
 }
 
 .card {

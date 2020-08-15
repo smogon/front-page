@@ -5,8 +5,10 @@ export default () => {
 	return ( 
 		<section className={style.filler}>
 			<div className={style.sectionCont}>
-				<i class="fas fa-comments fa-10x"></i>
-				<p>Want to participate in the community? Follow our discussions at any of the socia media apps listed below!</p>
+			<div>
+				<p class="fas fa-comments"></p>
+				<span>Want to participate in the community? Follow our discussions at any of the social media apps listed below!</span>
+			</div>
 			</div>
 		</section>
 	)

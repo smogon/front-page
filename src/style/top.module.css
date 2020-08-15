@@ -1,28 +1,27 @@
 .top {
     background-color: #463a5c;
     padding: 50px 100px;
-    display: flex;
-    max-width: 1800px;
 }
 
 .topCont {
     margin-top: 70px;
     color: #fff;
-    width: 35%;
+    width: 40%;
+    max-width: 600px;
+    min-width: 300px;
 }
 
 .topCont h1 span {
     color: #ffd014;
-    font-size: 6em;
     display: block;
 }
 
 .topCont h1 span:first-child {
-    font-size: 1.85em;
+    font-size: min(6.5vw, 1.85em);
 }
 
 .topCont h1 span:last-child {
-    font-size: 1.36em;
+    font-size: min(4.8vw, 1.36em);
 }
 
 hr {
@@ -31,30 +30,37 @@ hr {
 }
 
 .subtitle {
-    margin-top: 50px;
-    margin-bottom: 25px;
+    margin: 30px auto 25px auto;
     font-size: 1.7em;
 }
 
-.topCont .mainLink {
-    height: 55px;
-    width: 190px;
-    line-height: 55px;
-    font-size: 1.2em;
+.mainLink div {
     font-weight: bold;
-    background-color: #6c5ea6;
-    display: inline-block;
+    height: 55px;
+    padding: 0 10px 0 10px;
     border-radius: 80px;
-    margin-top: 20px;
-    margin-right: 10px;
     box-shadow: 1px 2px 2px 2px #000;
+    display: inline-block;
+    text-align: center;
 }
 
-.topCont .mainLink:last-child {
+.mainLink div:first-child {
+    background-color: #6c5ea6;
+    margin-right: 10px;
+}
+
+.mainLink div:last-child {
     background-color: #6b8085;
     padding-right: 10px;
 }
 
-.topCont .mainLink i {
-    margin: 4.5%;
+.mainLink div span {
+    font-size: 1.2em;
+    line-height: 55px;
+    vertical-align: middle;
+}
+
+.mainLink i {
+    line-height: 55px;
+    vertical-align: middle;
 }
