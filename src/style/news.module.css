@@ -1,26 +1,31 @@
 .news {
     background-color: #6c5ea6;
     padding: 50px 100px;
-    display: flex;
 }
 
 .newsCont {
-    width: 60%;
+    max-width: 2000px;
     height: 875px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
 }
 
-.newsCont h1, .newsCont i {
+.news h1, .newsCont i {
     color: #fff;
     margin: 0;
 }
 
-.newsCont i {
-    margin: 3px 20px auto auto;
+.news i {
+    margin: 3px auto;
 }
 
 .shadow {
     box-shadow: 0 1px 2px 2px #000;
     border-radius: 5px;
+    max-width: 600px;
 }
 
 .articleCont {
@@ -31,12 +36,13 @@
     width: 90%;
     height: 80%;
     justify-items: center;
-    margin: 20px auto 0 auto;
 }
 
 .articleCard {
     width: 100%;
     height: 100%;
+    min-width: 300px;
+    min-height: 200px;
     border-radius: 40px;
 }
 

@@ -11,15 +11,12 @@ export default () => {
 				</h1>
 				<hr />
 				<div className={style.subtitle}>
-					Learn from the top website for competitive Pok&eacute;mon battling and face trainers from around the world
+					Learn from the top website for competitive Pok&eacute;mon battling and face trainers from around the world!
 				</div>
 				<div className={style.mainLink}>
-					<i class="fab fa-galactic-republic fa-2x"></i>
-					<span>Play Online</span>
-				</div>
-				<div className={style.mainLink}>
-					<i class="fab fa-galactic-republic fa-2x"></i>
-					<span>Battling 101</span>
+					<div><i class="fab fa-galactic-republic fa-2x"></i> <span>Play Online</span></div>
+
+					<div><i class="fab fa-galactic-republic fa-2x"></i> <span>Battling 101</span></div>
 				</div>
 			</div>
 		</section>
