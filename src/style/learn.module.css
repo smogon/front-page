@@ -3,12 +3,12 @@
     background-color: #fff;
 }
 
-.learn h1, .learn i {
+.learnCont h1, .learn i {
     color: #6c5ea6;
     margin: 0;
 }
 
-.learn i {
+.learnCont i {
     margin: 3px auto 20px auto;
 }
 
@@ -20,19 +20,19 @@
 .cardGrid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    width: 90%;
     justify-items: center;
     margin: 0 auto;
+    width: 85%;
     grid-gap: 20px;
 }
 
 .card {
-    width: 300px;
+    width: 70%;
+    min-width: 220px;
     background-color: #463a5c;
     border-radius: 30px;
-    display: grid;
+    display: inline-block;
     color: #fff;
-    align-items: center;
     padding: 20px 0;
     box-shadow: 1px 2px 5px 3px #000;
 }
@@ -40,39 +40,46 @@
 .vector {
     height: 125px;
     width: 125px;
-    border-radius: 50%;
     background-color: #fff;
-}
-
-.centerVect {
-    width: 100%;
-    height: 100%;
-    display: flex;
+    display: grid;
     align-items: center;
+    justify-content: center;
+    border-radius: 50%;
 }
 
-.centerVect > i {
+.vector > i {
     margin: 0 auto;
     color: #b02817;
 }
 
 .title {
-    font-size: 1.8em;
+    font-size: calc(16px + (25 - 16) * ((100vw - 200px) / (2000 - 200)));
+    /*1.8em*/
     font-weight: bold;
+    margin: 20px auto;
     text-align: center;
-    margin-top: 10px;
     width: 100%;
 }
 
 .desc {
-    font-size: 1.1em;
-    margin: 20px;
-    height: 120px;
+    font-size: calc(14px + (16 - 14) * ((100vw - 200px) / (2000 - 200)));
+    /*1.1em*/
+    height: 100px;
+    line-height: 100px;
+    width: 90%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.desc > span {
+    line-height: calc(14px + (16 - 14) * ((100vw - 200px) / (2000 - 200)));
+    vertical-align: middle;
+    display: inline-block;
 }
 
 .viewSelection {
     width: 80%;
-    height: 70px;
+    height: 50px;
     color: #463a5c;
     background-color: #ffd014;
     border-radius: 20px;

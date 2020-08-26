@@ -1,6 +1,6 @@
 footer {
     background-color: #6b8085;
-    height: 550px;
+    height: 500px;
     display: flex;
 }
 
@@ -12,18 +12,18 @@ footer {
     grid-template-areas: 
         "uni . . links";
     align-items: center;
-    justify-content: center;
+    padding: 0 100px;
 }
 
 .footerGrid > div:first-child {
-    justify-content: center;
+    justify-items: center;
     grid-area: uni;
     display: inline-grid;
 }
 
 .footerGrid > div:last-child {
     grid-area: links;
-    margin-right: 30px;
+    margin: 0 20px 0 auto;
 }
 
 .footerGrid img {
@@ -62,7 +62,7 @@ li {
     margin: 10px;
 }
 
-i:last-child {
+.social i:last-child {
     margin-right: 0;
 }
 
