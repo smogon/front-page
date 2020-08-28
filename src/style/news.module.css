@@ -1,6 +1,6 @@
 .news {
     background-color: #6c5ea6;
-    padding: 50px 100px;
+    padding: 30px 100px 50px;
 }
 
 .newsCont {
@@ -8,24 +8,22 @@
     margin: 0 auto;
 }
 
-.newsGrid {
-    max-width: 2000px;
-    width: 90%;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    align-items: center;
-    justify-items: center;
-    grid-gap: 50px;
-}
-
-.news h1, .news i {
+.newsCont h1, .newsCont i {
     color: #fff;
     margin: 0 auto;
 }
 
-.news i {
-    margin: 3px auto;
+.newsCont i {
+    margin: 4px auto;
+}
+
+.newsGrid {
+    max-width: 2000px;
+    width: 95%;
+    margin: 30px auto 0 auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
 }
 
 .shadow {
@@ -36,18 +34,19 @@
 
 .articleCont {
     display: grid;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 50px;
-    width: 100%;
-    height: 95%;
+    grid-template: repeat(auto-fill, [col-start] minmax(300px, 1fr) [col-end]) / repeat(auto-fill, [col-start] minmax(400px, 1fr) [col-end]);
+    gap: 50px;
+    width: 95%;
+    height: 100%;
+    justify-items: center;
 }
 
 .articleCard {
     width: 100%;
     height: 100%;
-    min-width: 300px;
-    min-height: 200px;
+    min-width: 250px;
+    max-width: 500px;
+    min-height: 300px;
     border-radius: 10px;
 }
 

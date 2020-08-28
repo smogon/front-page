@@ -1,39 +1,24 @@
-.filler {
+.participate {
     background-color: #463a5c;
-    padding: 20px 0;
-    height: 410px;
+    padding: 50px 100px;
 }
 
-.sectionCont {
+.participateCont {
     margin: 0 auto;
-    width: 70%;
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
-.sectionCont div {
     max-width: 2000px;
-    margin: 0 auto;
 }
 
-.sectionCont span {
-    font-weight: bold;
+.participateCont h1, .participateCont i {
     color: #ffd014;
-    display: inline-block;
-    width: min(70%, 1000px);
-    vertical-align: middle;
-    margin: auto 20px;
-}
-
-.sectionCont p {
-    color: #fff;
-    padding: 0 20px;
-    font-size: 10em;
     margin: 0 auto;
-    vertical-align: middle;
 }
 
-.sectionCont i, .sectionCont span {
-    font-size: 2.4em;
+.participateCont i {
+    margin: 4px auto;
+}
+
+.participateGrid {
+    margin: 0 auto;
+    max-width: 2000px;
+    width: 95%;
 }

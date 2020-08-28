@@ -11,7 +11,7 @@
 .info {
     margin-top: 70px;
     color: #fff;
-    width: 35%;
+    width: 40%;
     max-width: 600px;
     min-width: 300px;
 }
@@ -20,6 +20,7 @@
     color: #ffd014;
     display: block;
     text-align: center;
+    width: 100%;
 }
 
 .info h1 span:first-child {

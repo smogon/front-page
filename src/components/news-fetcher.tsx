@@ -54,13 +54,13 @@ export default class NewsFetcher extends Component<{}, any> {
 								auth = authors[0];
 								break;
 							case 2:
-								auth = `${authors[0]} and ${authors[1]}`;
+								auth = `${authors[0]} & ${authors[1]}`;
 								break;
 							case 3:
-								auth = (<span style="display:inline;">${authors[0]}, ${authors[1]}, and {authors[2]}</span>);
+								auth = (<span style="display:inline;">${authors[0]}, ${authors[1]}, &amp; {authors[2]}</span>);
 								break;
 							default:
-								auth = (<span style="display:inline;">{authors.slice(0, 3).join(", ")}, and <abbr title={authors.slice(3).join(", ")}>{authors.slice(3).length} more</abbr></span>);
+								auth = (<span style="display:inline;">{authors.slice(0, 3).join(", ")}, &amp; <abbr title={authors.slice(3).join(", ")}>{authors.slice(3).length} more</abbr></span>);
 								break;
 						}
 						return auth;
@@ -73,7 +73,7 @@ export default class NewsFetcher extends Component<{}, any> {
 
 					return (
 						<div className={[style.articleCard, style.shadow].join(" ")}>
-							<div></div>
+							<div className={style.articlePicture}></div>
 							<div>
 								<div className={style.center}>
 									<span className={style.title}>{post.title}</span>
